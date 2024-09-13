@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Logo Section */}
         <div className="col-span-1 md:col-span-2 lg:col-span-4 flex justify-center md:justify-start mb-8">
           <Image
-            src="/images/logo.svg" alt={"Logo"}
+            src="/images/Logo.svg" alt={"Logo"}
             height={150}
             width={150} 
           />
