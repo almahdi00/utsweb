@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import React from "react";
+import { FaStar } from "react-icons/fa"; // Import FaStar dari react-icons
 
 const testimonials = [
   {
@@ -55,7 +56,7 @@ export default function Testimonials() {
             >
               <div className="flex items-center mb-4">
                 {[...Array(testimonial.stars)].map((_, i) => (
-                  <i key={i} className="fas fa-star text-yellow-500"></i>
+                  <FaStar key={i} className="text-yellow-500" /> // Gunakan FaStar untuk menampilkan bintang
                 ))}
               </div>
               <p className="text-gray-700 mb-4 text-sm md:text-base">
